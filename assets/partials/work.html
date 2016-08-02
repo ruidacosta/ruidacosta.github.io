@@ -1,0 +1,40 @@
+<header>
+    <h2 class="section-title">{{resume.work.header}}
+    <span class="item-count">({{resume.work.length}})</span>
+    </h2>
+</header>
+<section id="work">
+    <header data-ng-repeat-start="work in resume.work track by $index">
+        <span class="space-left" data-hide-sections>
+            <span data-ng-show="!$index" class="fa fa-caret-down"></span>
+            <span data-ng-show="$index" class="fa fa-caret-right"></span>
+        </span>
+        <div class="position">
+            {{work.position}}
+        </div>
+        <div class="company">
+            {{work.company}}
+        </div>
+        <div class="date">
+            <span class="startDate">
+                {{work.startDate | date: 'MMMM yyyy'}}
+            </span>
+            <span class="endDate">
+                - {{(work.endDate | date: 'MMMM yyyy') || 'current'}}
+            </span>
+        </div>
+    </header>
+    <span class="website">
+        <a data-ng-href="{{work.website}}">{{work.website}}</a>
+    </span>
+    <div class="item display" data-ng-repeat-end data-ng-class="{none: $index}">
+        <div class="summary">
+            {{work.summary}}
+        </div>
+        <ul>
+            <li data-ng-repeat="highlight in work.highlights">{{highlight}} </li>
+        </ul>
+    </div>
+
+</div>
+</section>

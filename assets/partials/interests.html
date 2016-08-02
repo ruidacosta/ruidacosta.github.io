@@ -1,0 +1,11 @@
+<header>
+	<h2 class="section-title">{{resume.insterests.header}}</h2>
+</header>
+<section id="interests">
+	<div class="item" data-ng-repeat="interest in resume.interests">
+		<h3 class="name">{{interest.name}}</h3>
+		<ul class="keywords">
+			<li data-ng-repeat="keyword in interest.keywords">{{keyword}}</li>
+		</ul>
+	</div>
+</section>

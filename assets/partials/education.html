@@ -1,0 +1,55 @@
+<header>
+    <h2 class="section-title">{{resume.education.header}}
+    <span class="item-count">({{resume.education.length}})</span></h2>
+</header>
+<section class="education">
+    <header class="clear" data-ng-repeat-start="education in resume.education track by $index">
+        <span class="space-left" data-hide-sections>
+            <span data-ng-show="!$index"
+                  class="fa fa-caret-down">
+            </span>
+            <span data-ng-show="$index"
+                  class="fa fa-caret-right">
+            </span>
+        </span>
+        <div class="header-left">
+            <div class="studyType">
+                {{education.studyType}}
+            </div>
+            <div class="area">
+                {{education.area}}
+            </div>
+            <div class="institution">
+                {{education.institution}}
+            </div>
+        </div>
+        <div class="date">
+            <span class="startDate">
+                {{education.startDate | date: 'MMMM yyyy'}}
+            </span>
+            <span class="endDate">
+                - {{(education.endDate | date: 'MMMM yyyy') || 'current' }}
+            </span>
+        </div>
+    </header>
+    <span class="location" ng-if="education.location">
+        <span class="fa fa-map-marker"></span>
+        <span class="city">
+            {{education.location.city}}
+        </span>
+        <span class="region">
+            {{education.location.region}}
+        </span>
+    </span>
+    <ul class="courses">
+        <li data-ng-repeat="course in education.courses">{{course}}</li>
+    </ul>
+    <div class="item display" data-ng-style="{none: $index}"  data-ng-repeat-end>
+        <div class="gpa">
+            <strong> Grade:</strong> <span>{{education.gpa}}</span>
+        </div>
+        <div class="summary">
+            <p>{{education.summary}}</p>
+        </div>
+    </div>
+</section>

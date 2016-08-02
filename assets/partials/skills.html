@@ -1,0 +1,15 @@
+<header>
+	<h2 class="section-title">{{resume.skills.header}}</h2>
+</header>
+<section id="skills">
+	<div class="item" data-ng-repeat="skill in resume.skills">
+		<h3 class="name">{{skill.name}}</h3>
+		<div class="level {{skill.level | lowercase}}">
+			<em>{{skill.level}}</em>
+			<div class="bar"></div>
+		</div>
+		<ul class="keywords">
+			<li data-ng-repeat="keyword in skill.keywords">{{keyword}}</li>
+		</ul>
+	</div>
+</section>
