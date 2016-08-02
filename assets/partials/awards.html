@@ -1,0 +1,26 @@
+<header>
+	<h2 class="section-title">{{resume.awards.header}}</h2>
+</header>
+<section class="awards" data-ng-repeat="award in resume.awards">
+	<header class="clear">
+		<span class="space-left" data-hide-sections>
+			<span class="fa fa-caret-down"></span>
+		</span>
+		<div class="header-left">
+			<div class="title">
+				{{award.title}}
+			</div>
+			<div class="awarder">
+				{{award.awarder}}
+			</div>
+		</div>
+		<div class="date">
+			{{award.date | date: 'MMMM yyyy'}}
+		</div>
+	</header>
+	<div class="item display">
+		<div class="summary">
+			<p>{{award.awarder}}</p>
+		</div>
+	</div>
+</section>

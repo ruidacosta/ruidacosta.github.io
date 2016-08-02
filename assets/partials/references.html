@@ -1,0 +1,13 @@
+<header>
+	<h2 class="section-title">{{resume.references.header}}</h2>
+</header>
+<section id="references">
+	<div class="item" data-ng-repeat="reference in resume.references">
+		<blockquote class="reference">
+			{{reference.reference}}
+		</blockquote>
+		<div class="name">
+			{{reference.name}}
+		</div>
+	</div>
+</section>

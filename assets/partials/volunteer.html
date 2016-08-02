@@ -1,0 +1,38 @@
+<header>
+    <h2 class="section-title">{{resume.volunteer.header}}</h2>
+</header>
+<section id="volunteer">
+    <header class="clear" data-ng-repeat-start="volunteer in resume.volunteer track by $index">
+        <span class="space-left" data-hide-sections>
+            <span data-ng-show="!$index" class="fa fa-caret-down"></span>
+            <span data-ng-show="$index" class="fa fa-caret-right"></span>
+        </span>
+        <div class="header-left">
+            <div class="position">
+                {{volunteer.position}}
+            </div>
+            <div class="organization">
+                {{volunteer.organization}}
+            </div>
+        </div>
+        <div class="date">
+            <span class="startDate">
+                {{volunteer.startDate | date: 'MMMM yyyy'}}
+            </span>
+            <span class="endDate">
+                - {{volunteer.endDate | date: 'MMMM yyyy'}}
+            </span>
+        </div>
+    </header>
+    <div class="item display" data-ng-repeat-end data-ng-class="{none: $index}">
+        <div class="summary">
+            {{volunteer.summary}}
+        </div>
+        <div class="website">
+            <a data-ng-href="{{volunteer.website}}">{{volunteer.website}}/</a>
+        </div>
+        <ul class="highlights">
+            <li data-ng-repeat="highlight in volunteer.highlight">{{highlight}}</li>
+        </ul>
+    </div>
+</section>

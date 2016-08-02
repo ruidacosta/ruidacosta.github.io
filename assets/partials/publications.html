@@ -1,0 +1,33 @@
+<header>
+	<h2 class="section-title">{{resume.publications.header}}</h2>
+</header>
+<section class="publications">
+	<header class="clear" data-ng-repeat-start="publication in resume.publications track by $index">
+		<span class="space-left" data-hide-sections>
+			<span data-ng-show="!$index" class="fa fa-caret-down"></span>
+			<span data-ng-show="$index" class="fa fa-caret-right"></span>
+		</span>
+		<div class="header-left">
+			<span class="name">
+				<span class="website">
+					<a data-ng-show="publication.website"
+						data-ng-href="{{publication.website}}">{{publication.title}}
+					</a>
+					<span data-ng-show="!publication.website">{{publication.title}}
+					</span>
+				</span>
+			</span>
+			<span class="publisher">
+				{{publication.publisher}}
+			</span>
+		</div>
+		<span class="date">
+			{{publication.releaseDate | date: 'dd MMMM yyyy'}}
+		</span>
+	</header>
+	<div class="item display" data-ng-repeat-end data-ng-class="{none: $index}">
+		<div class="summary">
+			<p>{{publication.summary}}</p>
+		</div>
+	</div>
+</section>
