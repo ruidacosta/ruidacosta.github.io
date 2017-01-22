@@ -5,12 +5,7 @@
 <section class="education">
     <header class="clear" data-ng-repeat-start="education in resume.education track by $index">
         <span class="space-left" data-hide-sections>
-            <span data-ng-show="!$index"
-                  class="fa fa-caret-down">
-            </span>
-            <span data-ng-show="$index"
-                  class="fa fa-caret-right">
-            </span>
+            <span class="fa fa-caret-right"></span>
         </span>
         <div class="header-left">
             <div class="studyType">
@@ -28,7 +23,7 @@
                 {{education.startDate | date: 'MMMM yyyy'}}
             </span>
             <span class="endDate">
-                - {{(education.endDate | date: 'MMMM yyyy') || 'current' }}
+                - {{(education.endDate | date: 'MMMM yyyy') || 'Present' }}
             </span>
         </div>
     </header>
@@ -44,7 +39,7 @@
     <ul class="courses">
         <li data-ng-repeat="course in education.courses">{{course}}</li>
     </ul>
-    <div class="item display" data-ng-style="{none: $index}"  data-ng-repeat-end>
+    <div class="item display none" data-ng-style="{none: $index}"  data-ng-repeat-end>
         <div class="gpa">
             <strong> Grade:</strong> <span>{{education.gpa}}</span>
         </div>

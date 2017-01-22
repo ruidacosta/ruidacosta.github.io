@@ -6,8 +6,11 @@
 <section id="work">
     <header data-ng-repeat-start="work in resume.work track by $index">
         <span class="space-left" data-hide-sections>
+            <!--
             <span data-ng-show="!$index" class="fa fa-caret-down"></span>
             <span data-ng-show="$index" class="fa fa-caret-right"></span>
+            -->
+            <span class="fa fa-caret-right"></span>
         </span>
         <div class="position">
             {{work.position}}
@@ -27,7 +30,7 @@
     <span class="website">
         <a data-ng-href="{{work.website}}">{{work.website}}</a>
     </span>
-    <div class="item display" data-ng-repeat-end data-ng-class="{none: $index}">
+    <div class="item display none" data-ng-repeat-end data-ng-class="{none: $index}">
         <div class="summary">
             {{work.summary}}
         </div>

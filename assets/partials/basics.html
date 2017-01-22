@@ -1,44 +1,57 @@
-<div>
-	<h1 class="name">{{resume.name}}</h1>
-	<h2 class="label">{{resume.label}}</h2>
-</div>
-<span class="location">
-	<span class="address">
-		{{resume.address}}
-	</span>
-	<span class="postalCode">
-		{{resume.postalCode}}
-	</span>
-	<span class="city">
-		{{resume.city}}
-	</span>
-	<span class="region">
-		{{resume.region}}
-	</span>
-	<span class="countryCode">
-		{{resume.countryCode}}
-	</span>
-</span>
-
-<div id="contact">
-	<div class="website">
-		<span class="fa fa-external-link"></span>
-		<a target="_blank" data-ng-href="{{resume.website}}">{{resume.website}}</a>
+<div class="headtable">
+	<div class="headtable-row">
+		<div class="headtable-cell-left">
+			<div>
+				<h1 class="name">{{resume.name}}</h1>
+				<h2 class="label">{{resume.label}}</h2>
+			</div>
+			<span class="location">
+				<span class="address">
+					{{resume.address}}
+				</span>
+				<span class="postalCode">
+					{{resume.postalCode}}
+				</span>
+				<span class="city">
+					{{resume.city}}
+				</span>
+				<span class="region">
+					{{resume.region}}
+				</span>
+				<span class="countryCode">
+					{{resume.countryCode}}
+				</span>
+			</span>
+			
+			<div id="contact">
+				<div class="website">
+					<span class="fa fa-external-link"></span>
+					<a target="_blank" data-ng-href="{{resume.website}}">{{resume.website}}</a>
+				</div>
+				<div class="email">
+					<span class="fa fa-envelope-o"></span>
+					<a data-ng-href="mailto:{{resume.email}}">{{resume.email}}</a>
+				</div>
+				<div class="phone">
+					<span class="fa fa-mobile"></span>
+					<span>{{resume.phone}}</span>
+				</div>
+			</div>
+			
+			<div id="profiles">
+				<div data-ng-repeat="profile in resume.profiles" class="item">
+					<div class="username">
+						<span class="fa fa-{{profile.network | lowercase}} {{profile.network | lowercase}} social"></span>
+						<a data-ng-href="{{profile.url}}">{{profile.username}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div>
+			<div class="picture headtable-cell-right">
+				<img src="{{resume.picture}}">
+			</div>
+		</div>
 	</div>
-	<div class="email">
-		<span class="fa fa-envelope-o"></span>
-		<a data-ng-href="mailto:{{resume.email}}">{{resume.email}}</a>
-	</div>
-	<div class="phone">
-		<span class="fa fa-mobile"></span>
-		<span>{{resume.phone}}</span>
-	</div>
-</div>
-<div id="profiles">
-	<div data-ng-repeat="profile in resume.profiles" class="item">
-		<div class="username">
-			<span class="fa fa-{{profile.network | lowercase}} {{profile.network | lowercase}} social"></span>
-		<a data-ng-href="{{profile.url}}">{{profile.username}}</span>
-	</div>
-</div>
 </div>
