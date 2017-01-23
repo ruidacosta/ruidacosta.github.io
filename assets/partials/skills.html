@@ -4,6 +4,8 @@
 <section id="skills">
 	<div class="item" data-ng-repeat="skill in resume.skills">
 		<h3 class="name">{{skill.name}}</h3>
+		<!-- Skill level -->
+		<!-- beginner | intermediate | advanced | master -->
 		<div class="level {{skill.level | lowercase}}">
 			<em>{{skill.level}}</em>
 			<div class="bar"></div>

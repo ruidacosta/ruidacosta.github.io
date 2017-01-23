@@ -7,7 +7,7 @@
         "phone": "+351 924 241 327",
         "website": "http://ruidacosta.github.io",
         "pdf": "data/RuiCostaCV.pdf",
-        "summary": "A versatile and professional graduate software developer with 3 years of commercial ex- perience. Worked with C++, C#, Javascript and PL/SQL on Windows environments. Unix and Unix-like user with 6+ years of personal experience. A proven ability to maintain and enhance company software with the aim of improving op- erational functionality in line with business requirement. Able to work with any technology and to perform full software development life cycle acti- vates. Currentlylookingforasoftwaredeveloperopportunitythatwillallowmetoworkalongside an expert team of developers. Thereby helping to drive my career progression.",
+        "summary": "A versatile and professional graduate software developer with 3 years of commercial experience. Worked with C++, C#, Javascript and PL/SQL on Windows environments. Unix and Unix-like user with 6+ years of personal experience. A proven ability to maintain and enhance company's software with the aim of improving operational functionality in line with business requirement. Able to work with any technology and to perform full software development life cycle activities. Currently looking for a software developer opportunity that will allow me to work along side an expert team of developers. Thereby helping to drive my career progression.",
         "location": {
             "address": "Largo Ferreira Lapa, 79 3º Esq",
             "postalCode": "4050-323",
@@ -93,21 +93,43 @@
     ],
     "skills": [
         {
-            "name": "Web Development",
-            "level": "Master",
+            "name": "Backend Development",
+            "level": "Advanced",
             "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
+                "C++",
+                "PHP",
+                "C#",
+                "Java",
+                "Python",
+                "Django",
+                "NodeJS"
             ]
         },
         {
-            "name": "Compression",
-            "level": "Master",
+            "name": "Frontend Development",
+            "level": "Intermediate",
             "keywords": [
-                "Mpeg",
-                "MP4",
-                "GIF"
+                "HTML",
+                "CSS",
+                "Javascript",
+                "JQuery",
+                "AngularJS",
+                "Bootstrap"
+            ]
+        },
+        {
+            "name": "Data Bases",
+            "level": "Advanced",
+            "keywords": [
+                "Oracle",
+                "PL-SQL",
+                "DB2-IBM",
+                "SQLite",
+                "MySQL",
+                "PostgreSQL",
+                "MongoDB",
+                "SQL-Server",
+                "T-SQL"
             ]
         }
     ],

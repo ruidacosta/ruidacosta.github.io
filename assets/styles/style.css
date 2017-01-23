@@ -200,6 +200,7 @@ section .location {
 
 .main-summary p {
     margin: .15em 0 0;
+    text-align: justify;
 }
 
 .headtable {
