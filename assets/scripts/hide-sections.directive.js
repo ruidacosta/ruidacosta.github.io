@@ -10,7 +10,7 @@ define(function(require) {
         function link() {
             var element = arguments[1];
 
-            var elements = element[0].querySelectorAll('.fa-caret-down', '.fa-caret-right');
+            var elements = element[0].querySelectorAll('.fa-caret-right');
 
             angular.forEach(elements, function(element) {
                 element.addEventListener("click", function(e) {

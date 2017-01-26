@@ -2,11 +2,12 @@
     "basics": {
         "name": "Rui Costa",
         "label": "Software Developer",
-        "picture": "",
+        "picture": "data/photo.jpg",
         "email": "rui.duarte.costa@gmail.com",
         "phone": "+351 924 241 327",
         "website": "http://ruidacosta.github.io",
-        "summary": "A versatile and professional graduate software developer with 3 years of commercial ex- perience. Worked with C++, C#, Javascript and PL/SQL on Windows environments. Unix and Unix-like user with 6+ years of personal experience. A proven ability to maintain and enhance company software with the aim of improving op- erational functionality in line with business requirement. Able to work with any technology and to perform full software development life cycle acti- vates. Currentlylookingforasoftwaredeveloperopportunitythatwillallowmetoworkalongside an expert team of developers. Thereby helping to drive my career progression.",
+        "pdf": "data/RuiCostaCV.pdf",
+        "summary": "A versatile and professional graduate software developer with 3 years of commercial experience. Worked with C++, C#, Javascript and PL/SQL on Windows environments. Unix and Unix-like user with 6+ years of personal experience. A proven ability to maintain and enhance company's software with the aim of improving operational functionality in line with business requirement. Able to work with any technology and to perform full software development life cycle activities. Currently looking for a software developer opportunity that will allow me to work along side an expert team of developers. Thereby helping to drive my career progression.",
         "location": {
             "address": "Largo Ferreira Lapa, 79 3º Esq",
             "postalCode": "4050-323",
@@ -16,19 +17,9 @@
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "neutralthoughts",
-                "url": ""
-            },
-            {
-                "network": "SoundCloud",
-                "username": "dandymusicnl",
-                "url": "https://soundcloud.com/dandymusicnl"
-            },
-            {
                 "network": "GitHub",
                 "username": "ruidacosta",
-                "url": ""
+                "url": "http://github.com/ruidacosta"
             },
             {
                 "network": "Skype",
@@ -37,8 +28,8 @@
             },
             {
                 "network": "Linkedin",
-                "username": "",
-                "url": ""
+                "username": "ruidcosta",
+                "url": "http://www.linkedin.com/in/ruidcosta"
             }
         ]
     },
@@ -48,8 +39,7 @@
             "position": "Software Developer",
             "website": "http://www.finantech.pt",
             "startDate": "2013-06-01",
-            "endDate": "Present",
-            "summary": "Build functions and procedures on Oracle Databases for all company’s trading systems. Add features, using C#, on a software designed to enable clients to configure their business rules. Fix bugs on trading server-side software, us- ing C# and C++. Maintain existing libraries for communication interfaces with market data providers updated, using C++. Develop a Web Interface for all server side trading systems, using AngularJS and JQuery on front-end and C++ on backend. Server side application to insert real-time market data on a DB2 database system. Support clients in European and American financial markets.",
+            "summary": "Build functions and procedures on Oracle Databases for all company’s trading systems. Add features, using C#, on a software designed to enable clients to configure their business rules. Fix bugs on trading server-side software, using C# and C++. Maintain existing libraries for communication interfaces with market data providers updated, using C++. Develop a Web Interface for all server side trading systems, using AngularJS and JQuery on front-end and C++ on backend. Server side application to insert real-time market data on a DB2 database system. Support clients in European and American financial markets.",
             "highlights": [
                 "C++", 
                 "C#", 
@@ -69,8 +59,8 @@
             "company": "Freelancer",
             "position": "Backend Web Developer",
             "website": "",
-            "startDate": "2006",
-            "endDate": "2010",
+            "startDate": "2006-05-01",
+            "endDate": "2010-12-31",
             "summary": "Develop back-end for some small websites in PHP.",
             "highlights": [
                 "PHP", 
@@ -84,11 +74,10 @@
     "education": [
         {
             "institution": "University of Porto, Portugal",
-            "area": "Network and Distributed Systems",
+            "area": "Network and Distributed Systems Engineering",
             "studyType": "Master",
             "startDate": "2010-01-01",
             "endDate": "2013-01-01",
-            "gpa": "4.0",
             "courses": [
             ]
         },
@@ -98,28 +87,49 @@
             "studyType": "Bachelor",
             "startDate": "2006-01-01",
             "endDate": "2010-01-01",
-            "gpa": "4.0",
             "courses": [
             ]
         } 
     ],
     "skills": [
         {
-            "name": "Web Development",
-            "level": "Master",
+            "name": "Backend Development",
+            "level": "Advanced",
             "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
+                "C++",
+                "PHP",
+                "C#",
+                "Java",
+                "Python",
+                "Django",
+                "NodeJS"
             ]
         },
         {
-            "name": "Compression",
-            "level": "Master",
+            "name": "Frontend Development",
+            "level": "Intermediate",
             "keywords": [
-                "Mpeg",
-                "MP4",
-                "GIF"
+                "HTML",
+                "CSS",
+                "Javascript",
+                "JQuery",
+                "AngularJS",
+                "Bootstrap"
+            ]
+        },
+        {
+            "name": "Data Bases",
+            "level": "Advanced",
+            "keywords": [
+                "Oracle",
+                "PL-SQL",
+                "DB2-IBM",
+                "SQLite",
+                "MySQL",
+                "PostgreSQL",
+                "MongoDB",
+                "SQL-Server",
+                "T-SQL"
             ]
         }
     ],
@@ -130,15 +140,15 @@
         },
         {
             "language": "English",
-            "fluency": "Very good"
+            "fluency": "advanced"
         },
         {
             "language": "Spanish",
-            "fluency": "Very good"
+            "fluency": "advanced"
         },
         {
             "language": "French",
-            "fluency": "Basic"
+            "fluency": "intermediate"
         }
     ],
     "interests": [

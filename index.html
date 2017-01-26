@@ -8,6 +8,10 @@
     </head>
     <body data-ng-cloak data-ng-controller="ResumeController as resume">
         <div id="resume">
+            <div class="pdflink">
+                <span class="fa fa-download"></span>
+                <a href="{{resume.pdf}}">PDF version</a>
+            </div>
             <header id='header' class="clear" data-ng-include="'assets/partials/basics.html'">
             </header>
 

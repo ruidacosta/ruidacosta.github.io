@@ -5,6 +5,8 @@
 	<div class="display" data-ng-repeat="language in resume.languages">
 		<h3 class="language">{{language.language}}</h3>
 		<div class="item">
+			<!-- Language level -->
+			<!-- beginner | intermediate | advanced | master | native.speaker -->
 			<div class="level fluency {{language.fluency | lowercase}}">
 				<em>{{language.fluency}}</em>
 				<div class="bar"></div>
