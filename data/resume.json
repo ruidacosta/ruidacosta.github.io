@@ -39,7 +39,7 @@
             "position": "Software Developer",
             "website": "http://www.finantech.pt",
             "startDate": "2013-06-01",
-            "summary": "Build functions and procedures on Oracle Databases for all company’s trading systems. Add features, using C#, on a software designed to enable clients to configure their business rules. Fix bugs on trading server-side software, us- ing C# and C++. Maintain existing libraries for communication interfaces with market data providers updated, using C++. Develop a Web Interface for all server side trading systems, using AngularJS and JQuery on front-end and C++ on backend. Server side application to insert real-time market data on a DB2 database system. Support clients in European and American financial markets.",
+            "summary": "Build functions and procedures on Oracle Databases for all company’s trading systems. Add features, using C#, on a software designed to enable clients to configure their business rules. Fix bugs on trading server-side software, using C# and C++. Maintain existing libraries for communication interfaces with market data providers updated, using C++. Develop a Web Interface for all server side trading systems, using AngularJS and JQuery on front-end and C++ on backend. Server side application to insert real-time market data on a DB2 database system. Support clients in European and American financial markets.",
             "highlights": [
                 "C++", 
                 "C#", 

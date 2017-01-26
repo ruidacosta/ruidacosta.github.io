@@ -4,9 +4,11 @@
 </header>
 <section class="education">
     <header class="clear" data-ng-repeat-start="education in resume.education track by $index">
+        <!--
         <span class="space-left" data-hide-sections>
             <span class="fa fa-caret-right"></span>
         </span>
+        -->
         <div class="header-left">
             <div class="studyType">
                 {{education.studyType}}
@@ -40,10 +42,10 @@
         <li data-ng-repeat="course in education.courses">{{course}}</li>
     </ul>
     <div class="item display none" data-ng-style="{none: $index}"  data-ng-repeat-end>
-        <div class="gpa">
+        <div class="gpa" data-ng-if="education.gpa">
             <strong> Grade:</strong> <span>{{education.gpa}}</span>
         </div>
-        <div class="summary">
+        <div class="summary summary-justify" data-ng-if="education.summary">
             <p>{{education.summary}}</p>
         </div>
     </div>

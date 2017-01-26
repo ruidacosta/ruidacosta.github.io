@@ -511,6 +511,10 @@ ul.courses li:hover {
     margin-bottom: .5rem;
 }
 
+.summary-justify {
+    text-align: justify;
+}
+
 /****************
 *       TABLET
 ****************/
