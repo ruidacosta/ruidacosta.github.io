@@ -35,10 +35,28 @@
     },
     "work": [
         {
+            "company": "Natixis on Behalf of GFI",
+            "position": "Sophis Software Developer - Equities & Commodities",
+            "website": "http://www.natixis.com",
+            "startDate": "2017-05-02",
+            "summary": "",
+            "highlights": [
+                "C#",
+                "C++",
+                "Oracle Databases",
+                "SQL Server",
+                "Windows Bash Scripting",
+                "Sophis API",
+                "SVN",
+                "TFS"
+            ]
+        },
+        {
             "company": "Finantech",
             "position": "Software Developer",
             "website": "http://www.finantech.pt",
             "startDate": "2013-06-01",
+            "endDate": "2017-04-28",
             "summary": "Build functions and procedures on Oracle Databases for all company’s trading systems. Add features, using C#, on a software designed to enable clients to configure their business rules. Fix bugs on trading server-side software, using C# and C++. Maintain existing libraries for communication interfaces with market data providers updated, using C++. Develop a Web Interface for all server side trading systems, using AngularJS and JQuery on front-end and C++ on backend. Server side application to insert real-time market data on a DB2 database system. Support clients in European and American financial markets.",
             "highlights": [
                 "C++", 
@@ -53,6 +71,8 @@
                 "HTTP", 
                 "REST API", 
                 "Multi-Threading"
+                "Git",
+                "TFS"
             ]
         },
         {
@@ -160,7 +180,8 @@
                 "Web app creation",
                 "High-throughput computing",
                 "High-performance computing",
-                "Parallel computing"
+                "Parallel computing",
+                "Capital Markets"
             ]
         },
         {
