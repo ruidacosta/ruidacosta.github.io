@@ -7,7 +7,7 @@
         "phone": "+351 924 241 327",
         "website": "http://ruidacosta.github.io",
         "pdf": "data/RuiCostaCV.pdf",
-        "summary": "A versatile and professional graduate software developer with 3 years of commercial experience. Worked with C++, C#, Javascript and PL/SQL on Windows environments. Unix and Unix-like user with 6+ years of personal experience. A proven ability to maintain and enhance company's software with the aim of improving operational functionality in line with business requirement. Able to work with any technology and to perform full software development life cycle activities. Currently looking for a software developer opportunity that will allow me to work along side an expert team of developers. Thereby helping to drive my career progression.",
+        "summary": "A versatile and professional graduate software developer with 3 years of commercial experience. Worked with C++, C#, Javascript and PL/SQL on Windows environments. Unix and Unix-like user with 6+ years of personal experience. A proven ability to maintain and enhance company software with the aim of improving operational functionality in line with business requirement. Able to work with any technology and to perform full software development life cycle activates. Looking for a software developer opportunities that will allow me to work alongside an expert team of developers and on challenging projects in terms of technology and  implementation. Thereby helping to drive my career progression to more seniors roles in the future.",
         "location": {
             "address": "Largo Ferreira Lapa, 79 3º Esq",
             "postalCode": "4050-323",
@@ -15,8 +15,7 @@
             "countryCode": "PT",
             "region": "Porto"
         },
-        "profiles": [
-            {
+        "profiles": [{
                 "network": "GitHub",
                 "username": "ruidacosta",
                 "url": "http://github.com/ruidacosta"
@@ -33,22 +32,24 @@
             }
         ]
     },
-    "work": [
-        {
+    "work": [{
             "company": "Natixis on Behalf of GFI",
             "position": "Sophis Software Developer - Equities & Commodities",
             "website": "http://www.natixis.com",
             "startDate": "2017-05-02",
-            "summary": "",
+            "summary": "Work directly with business analysts, located in Paris and London, in order to implement client needs. Develop new features in existent applications (Squall and Booster) used by clients to book and manage contracts of SLB (Stock Lending and Borrowing) and TRS (Total Return Swaps).  Create executables to generate specific client reports in csv files, and sending then by FTP or directly by email. Maintenance on existent applications, correcting bugs and optimising code. Second line support on Sophis Front Office - Equities and Commodities.",
             "highlights": [
                 "C#",
                 "C++",
                 "Oracle Databases",
                 "SQL Server",
-                "Windows Bash Scripting",
-                "Sophis API",
+                "WPF",
+                "Windows Batch Scripting",
                 "SVN",
-                "TFS"
+                "TFS",
+                "Sophis API",
+                "Equities",
+                "Commodities"
             ]
         },
         {
@@ -59,17 +60,17 @@
             "endDate": "2017-04-28",
             "summary": "Build functions and procedures on Oracle Databases for all company’s trading systems. Add features, using C#, on a software designed to enable clients to configure their business rules. Fix bugs on trading server-side software, using C# and C++. Maintain existing libraries for communication interfaces with market data providers updated, using C++. Develop a Web Interface for all server side trading systems, using AngularJS and JQuery on front-end and C++ on backend. Server side application to insert real-time market data on a DB2 database system. Support clients in European and American financial markets.",
             "highlights": [
-                "C++", 
-                "C#", 
-                "Oracle Databases", 
-                "HTML", 
-                "Javascript", 
-                "JQuery", 
-                "AngularJS", 
-                "DB2 Databases", 
-                "Fix Protocol", 
-                "HTTP", 
-                "REST API", 
+                "C++",
+                "C#",
+                "Oracle Databases",
+                "HTML",
+                "Javascript",
+                "JQuery",
+                "AngularJS",
+                "DB2 Databases",
+                "Fix Protocol",
+                "HTTP",
+                "REST API",
                 "Multi-Threading",
                 "Git",
                 "TFS"
@@ -83,23 +84,21 @@
             "endDate": "2010-12-31",
             "summary": "Develop back-end for some small websites in PHP.",
             "highlights": [
-                "PHP", 
-                "MySQL", 
-                "Apache", 
-                "HTML", 
+                "PHP",
+                "MySQL",
+                "Apache",
+                "HTML",
                 "Javascript"
             ]
         }
     ],
-    "education": [
-        {
+    "education": [{
             "institution": "University of Porto, Portugal",
             "area": "Network and Distributed Systems Engineering",
             "studyType": "Master",
             "startDate": "2010-01-01",
             "endDate": "2013-01-01",
-            "courses": [
-            ]
+            "courses": []
         },
         {
             "institution": "University of Porto, Portugal",
@@ -107,12 +106,10 @@
             "studyType": "Bachelor",
             "startDate": "2006-01-01",
             "endDate": "2010-01-01",
-            "courses": [
-            ]
-        } 
+            "courses": []
+        }
     ],
-    "skills": [
-        {
+    "skills": [{
             "name": "Backend Development",
             "level": "Advanced",
             "keywords": [
@@ -153,8 +150,7 @@
             ]
         }
     ],
-    "languages": [
-        {
+    "languages": [{
             "language": "Portuguese",
             "fluency": "Native speaker"
         },
@@ -171,8 +167,7 @@
             "fluency": "intermediate"
         }
     ],
-    "interests": [
-        {
+    "interests": [{
             "name": "Professional",
             "keywords": [
                 "Software development",
